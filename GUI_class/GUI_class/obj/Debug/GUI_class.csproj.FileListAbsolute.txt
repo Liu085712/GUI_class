@@ -1,0 +1,10 @@
+D:\MyCode\GUI_class\GUI_class\GUI_class\bin\Debug\GUI_class.exe.config
+D:\MyCode\GUI_class\GUI_class\GUI_class\bin\Debug\GUI_class.exe
+D:\MyCode\GUI_class\GUI_class\GUI_class\bin\Debug\GUI_class.pdb
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.csproj.AssemblyReference.cache
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.csproj.SuggestedBindingRedirects.cache
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.Properties.Resources.resources
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.csproj.GenerateResource.cache
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.csproj.CoreCompileInputs.cache
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.exe
+D:\MyCode\GUI_class\GUI_class\GUI_class\obj\Debug\GUI_class.pdb
