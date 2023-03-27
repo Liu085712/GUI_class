@@ -12,7 +12,11 @@ namespace GUI_class20230313
 {
     public partial class Form1 : Form
     {
-        private Button but_button;
+        private Label label1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label2;
 
         public Form1()
         {
@@ -31,27 +35,74 @@ namespace GUI_class20230313
 
         private void InitializeComponent()
         {
-            this.but_button = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // but_button
+            // label1
             // 
-            this.but_button.Font = new System.Drawing.Font("新細明體", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.but_button.ForeColor = System.Drawing.Color.Red;
-            this.but_button.Location = new System.Drawing.Point(12, 12);
-            this.but_button.Name = "but_button";
-            this.but_button.Size = new System.Drawing.Size(173, 60);
-            this.but_button.TabIndex = 0;
-            this.but_button.Text = "按鈕_0313";
-            this.but_button.UseVisualStyleBackColor = true;
-            this.but_button.Click += new System.EventHandler(this.button1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(22, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 12);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 57);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 37);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "設定標籤內容";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 135);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 37);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "加1";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(60, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(11, 12);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "0";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(12, 213);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(112, 37);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "按一下放大";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(704, 384);
-            this.Controls.Add(this.but_button);
+            this.ClientSize = new System.Drawing.Size(759, 645);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -60,6 +111,34 @@ namespace GUI_class20230313
             //MessageBox.Show("HELLO_WORLD");
             Form form_button = new Form_button();
             form_button.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            label1.Text = "下方按鈕按過了";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string temp = label2.Text;
+            int count = Int32.Parse(temp) + 1;
+            label2.Text = count + "";
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            short sizeNum = 10;
+            button3.Size = new Size(button3.Width + sizeNum , button3.Height + sizeNum);
         }
     }
 }
