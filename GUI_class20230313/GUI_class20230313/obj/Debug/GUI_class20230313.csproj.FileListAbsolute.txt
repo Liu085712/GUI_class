@@ -8,3 +8,4 @@ C:\Users\MEGAS\Desktop\GUI_class\GUI_class20230313\GUI_class20230313\obj\Debug\G
 C:\Users\MEGAS\Desktop\GUI_class\GUI_class20230313\GUI_class20230313\obj\Debug\GUI_class20230313.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\GUI_class\GUI_class20230313\GUI_class20230313\obj\Debug\GUI_class20230313.exe
 C:\Users\MEGAS\Desktop\GUI_class\GUI_class20230313\GUI_class20230313\obj\Debug\GUI_class20230313.pdb
+C:\Users\MEGAS\Desktop\GUI_class\GUI_class20230313\GUI_class20230313\obj\Debug\GUI_class20230313.from_text_410.resources

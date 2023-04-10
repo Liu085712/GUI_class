@@ -16,6 +16,7 @@ namespace GUI_class20230313
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button button4;
         private Label label2;
 
         public Form1()
@@ -40,6 +41,7 @@ namespace GUI_class20230313
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -92,9 +94,20 @@ namespace GUI_class20230313
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(12, 293);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(112, 37);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "輸入框 4/10";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(759, 645);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
@@ -139,6 +152,17 @@ namespace GUI_class20230313
         {
             short sizeNum = 10;
             button3.Size = new Size(button3.Width + sizeNum , button3.Height + sizeNum);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form from_text_410 = new from_text_410();
+            from_text_410.Show();
         }
     }
 }
