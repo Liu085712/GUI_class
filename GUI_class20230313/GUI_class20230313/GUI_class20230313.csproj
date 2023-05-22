@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class0508.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class0508.Designer.cs">
+      <DependentUpon>Class0508.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class20230522.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class20230522.Designer.cs">
+      <DependentUpon>Class20230522.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class424.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class424.Designer.cs">
+      <DependentUpon>Class424.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +81,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Class0508.resx">
+      <DependentUpon>Class0508.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class20230522.resx">
+      <DependentUpon>Class20230522.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class424.resx">
+      <DependentUpon>Class424.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,6 +118,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20220608001656.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\167677896811328_P14589157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20220608001656 - 複製.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\167677896811328_P14589157 - 複製.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

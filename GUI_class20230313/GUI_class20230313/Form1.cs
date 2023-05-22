@@ -17,6 +17,9 @@ namespace GUI_class20230313
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
         private Label label2;
 
         public Form1()
@@ -42,6 +45,9 @@ namespace GUI_class20230313
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,17 +102,50 @@ namespace GUI_class20230313
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 293);
+            this.button4.Location = new System.Drawing.Point(12, 292);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(112, 37);
+            this.button4.Size = new System.Drawing.Size(138, 37);
             this.button4.TabIndex = 9;
-            this.button4.Text = "輸入框 4/10";
+            this.button4.Text = "期中考-攝氏轉華氏";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(12, 358);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(138, 37);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "TextAdd";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(12, 417);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(138, 49);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "2023 5/8";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(12, 488);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(138, 49);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "2023 5/22";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(759, 645);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
@@ -163,6 +202,22 @@ namespace GUI_class20230313
         {
             Form from_text_410 = new from_text_410();
             from_text_410.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form Class20230522 = new Class20230522();
+            Class20230522.Show();
         }
     }
 }

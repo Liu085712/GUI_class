@@ -24,10 +24,9 @@ namespace GUI_class20230313
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string str = textBox1.Text;
-            int input = Int32.Parse(str);
-            label2.Text = (input + 10).ToString();
-            //MessageBox.Show(str);
+            int c = Int32.Parse(textBox2.Text);
+            int f = c * 9 / 5 + 32;
+            label3.Text = f.ToString() + "度F";
         }
 
         private void label2_Click(object sender, EventArgs e)
